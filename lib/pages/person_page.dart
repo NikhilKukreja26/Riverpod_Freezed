@@ -7,9 +7,9 @@ class PersonPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final person1 =
+    const person1 =
         Person(id: 1, name: 'Nikhil', email: 'kukrejanikhil25@gmail.com');
-    final person2 =
+    const person2 =
         Person(id: 1, name: 'Nikhil', email: 'kukrejanikhil25@gmail.com');
     final person3 = person1.copyWith(id: 2, email: 'nikhil@gmail.com');
     if (kDebugMode) {
